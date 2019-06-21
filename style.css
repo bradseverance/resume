@@ -13,6 +13,21 @@ display:block;
 
 html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dt {
+	grid-column-start: 2;
+	text-align: right;
+}
+
+dd {
+	grid-column-start: 3;
+	text-align: left;
+}
+
 .clear {clear: both;}
 
 p {
@@ -37,15 +52,15 @@ p {
 
 #name h1 {
 	font-size: 2.5em;
-	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
 	margin-bottom: -6px;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 #mainArea {
@@ -79,13 +94,13 @@ p {
 	margin-top: 2px;
 }
 
-#contactDetails ul li {
+#contactDetails dl dd, dl dt {
 	margin-bottom: 3px;
 	color: #444;
 }
 
-#contactDetails ul li a, a[href^=tel] {
-	color: #444; 
+#contactDetails dl dd a, a[href^=tel] {
+	color: #444;
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -94,7 +109,7 @@ p {
 	transition: all .3s ease-in;
 }
 
-#contactDetails ul li a:hover { 
+#contactDetails dl dd a:hover {
 	color: #cf8a05;
 }
 
@@ -123,14 +138,14 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #cf8a05;
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
