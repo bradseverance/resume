@@ -1,3 +1,4 @@
+/* styles */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
 border:0;
 font:inherit;
@@ -140,13 +141,13 @@ section:last-child {
 .sectionTitle h1 {
 	font-family: 'Oswald', sans-serif;
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #cf8a05;
 }
 
 .sectionContent h2 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: -2px;
 }
 
