@@ -55,10 +55,14 @@ dd {
 
 .clear {clear: both;}
 
+article > ul{
+	padding-left: 1em;
+}
+
 p {
 	font-size: .87em;
 	line-height: 1.2em;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	color: #444;
 }
 
@@ -180,7 +184,11 @@ section:last-child {
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
-	margin-bottom: 3px;
+	margin-bottom: 10px;
+}
+
+.subHeader {
+	font-weight: bold
 }
 
 .keySkills {
