@@ -55,7 +55,8 @@ dd {
 
 .clear {clear: both;}
 
-article > ul{
+article > ul,
+.sectionContent > ul {
 	padding-left: 1em;
 }
 
