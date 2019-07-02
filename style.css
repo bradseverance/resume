@@ -36,6 +36,10 @@ ul {
 	line-height: 1.2em;
 }
 
+.fa-ul {
+  margin-left: 1.6em !important;
+}
+
 dl {
   display: grid;
 	/* grid-template-columns: max-content auto; */
@@ -54,11 +58,6 @@ dd {
 }
 
 .clear {clear: both;}
-
-article > ul,
-.sectionContent > ul {
-	padding-left: 1em;
-}
 
 p {
 	font-size: .87em;
