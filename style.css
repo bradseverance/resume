@@ -98,7 +98,7 @@ p {
 }
 
 #headshot {
-	width: 12.5%;
+	width: 15%;
 	float: left;
 	margin-right: 30px;
 }
@@ -106,8 +106,7 @@ p {
 #headshot img {
 	width: 100%;
 	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	border: 3px solid #bc5148;
 }
 
 #name {
@@ -207,7 +206,25 @@ section:last-child {
 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
-		display: none;
+		/* display: none; */
+		float: left;
+		width: 40%;
+	}
+
+	#name {
+		float: none;
+	}
+
+	#name h1 {
+		font-size: 2em;
+	}
+
+	#name h2 {
+		font-size: 1.5em;
+	}
+
+	#contactDetails {
+		float: left;
 	}
 
 	.keySkills {
@@ -225,7 +242,10 @@ section:last-child {
 	}
 
 	#headshot {
-		display: none;
+		/* display: none; */
+		float: none;
+		width: 75%;
+		margin: 0 auto;
 	}
 
 	#name, #contactDetails {
