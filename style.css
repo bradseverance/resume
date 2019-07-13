@@ -24,6 +24,7 @@ html, body {
 	background: #fef8e6;
 	font-family: 'Lato', helvetica, arial, sans-serif;
 	color: #444;
+	line-height: 1.5em;
 }
 
 a, a:hover, a:visited {
@@ -33,7 +34,7 @@ a, a:hover, a:visited {
 
 ul {
 	font-size: .87em;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 
 .fa-ul {
@@ -61,7 +62,7 @@ dd {
 
 p {
 	font-size: .87em;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	margin-bottom: 10px;
 	color: #444;
 }
@@ -83,7 +84,7 @@ p {
 	font-size: 2.5em;
 	font-weight: 400;
 	font-family: 'Oswald', sans-serif;
-	margin-bottom: -6px;
+	margin-bottom: 16px;
 }
 
 #name h2 {
@@ -111,6 +112,7 @@ p {
 
 #name {
 	float: left;
+	margin-top: 10px;
 }
 
 #contactDetails {
@@ -177,7 +179,7 @@ section:last-child {
 .sectionContent h2 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.3em;
-	margin-bottom: -2px;
+	margin-bottom: 2px;
 }
 
 .subDetails {
@@ -206,7 +208,6 @@ section:last-child {
 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
-		/* display: none; */
 		float: left;
 		width: 40%;
 	}
@@ -242,7 +243,6 @@ section:last-child {
 	}
 
 	#headshot {
-		/* display: none; */
 		float: none;
 		width: 75%;
 		margin: 0 auto;
@@ -257,10 +257,10 @@ section:last-child {
 	.sectionTitle, .sectionContent {
 		float: none;
 		width: 100%;
+		margin-bottom: 10px;
 	}
 
 	.sectionTitle {
-		margin-left: -2px;
 		font-size: 1.25em;
 	}
 
@@ -291,8 +291,7 @@ section:last-child {
 	}
 
 	#name h1 {
-		line-height: .8em;
-		margin-bottom: 4px;
+		margin-bottom: 16px;
 	}
 }
 
