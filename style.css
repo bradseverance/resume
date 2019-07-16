@@ -206,6 +206,17 @@ section:last-child {
 	margin-bottom: 3px;
 }
 
+.thb {
+	width: 100%;
+}
+
+.thbs-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 10px;
+	margin-top: 25px;
+}
+
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
 		float: left;
@@ -246,6 +257,13 @@ section:last-child {
 		float: none;
 		width: 75%;
 		margin: 0 auto;
+	}
+
+	.thbs-container {
+		display: grid;
+		grid-template-columns: 125px 125px;
+		grid-gap: 5px;
+		margin-top: 25px;
 	}
 
 	#name, #contactDetails {
